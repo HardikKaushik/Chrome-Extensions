@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "ChatGPT Email Writer",
+    "version": "1.0",
+    "description": "A Chrome extension to generate email text using ChatGPT API",
+    "action": {
+      
+      "default_popup": "popup.html"
+    },
+    "permissions": [
+      "storage",
+      "activeTab" 
+    ],
+    "host_permissions": [
+      "https://api.openai.com/"
+    ]
+   
+    
+
+  }
+  
